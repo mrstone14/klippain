@@ -259,7 +259,7 @@ backup_config
 install_config
 restart_klipper
 
-wget -O - https://raw.githubusercontent.com/Frix-x/klippain-shaketune/main/install.sh | bash
+sudo wget -O - https://raw.githubusercontent.com/Frix-x/klippain-shaketune/main/install.sh | bash
 
 echo "[POST-INSTALL] Everything is ok, Klippain installed and up to date!"
 echo "[POST-INSTALL] Be sure to check the breaking changes on the release page: https://github.com/Frix-x/klippain/releases"
